@@ -10,7 +10,7 @@
    ```
 2. Install dependencies
    ```sh
-   npm init
+   npm install
    ```
 3. To run app
    ```sh
