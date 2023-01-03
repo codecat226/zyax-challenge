@@ -1,13 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Raleway', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(91, 159, 126);
+}
+
+form {
+  padding: 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  box-shadow: 60px -14px teal;
+}
+
+form h1 {
+  margin-bottom: 1.5rem;
+}
+
+.form__input input {
+  width: 20rem;
+  height: 3rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.errorMsg {
+  margin-top: 0.4rem;
+  color: red;
+  display: block;
+  font-size: 0.9rem;
+}
+
+.submitBtn {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: none;
+  width: 100%;
+  background-color: rgb(186, 195, 198);
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
 }
