@@ -4,7 +4,7 @@
 
 ### Installation and Usage
 
-1. Clone the repo
+1. Clone the repo and cd into directory
    ```sh
    git clone https://github.com/codecat226/zyax-challenge.git
    ```
@@ -18,5 +18,5 @@
    ```
 4. To run tests
    ```sh
-   npm run test
+   npm test -- --verbose
    ```
