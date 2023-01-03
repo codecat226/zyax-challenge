@@ -6,7 +6,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/codecat226/frontend-challenge.git
+   git clone https://github.com/codecat226/zyax-challenge.git
    ```
 2. Install dependencies
    ```sh
